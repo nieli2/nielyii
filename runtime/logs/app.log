@@ -420,3 +420,2397 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1494331888.629
     'REQUEST_TIME' => 1494331888
 ]
+2017-05-09 15:47:00 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: message in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\SiteController.php:131
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\controllers\SiteController.php(131): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 131, Array)
+#1 [internal function]: app\controllers\SiteController->actionSay()
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('say', Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-09 15:46:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '64776'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsay'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1494337619.905
+    'REQUEST_TIME' => 1494337619
+]
+2017-05-09 15:47:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: message in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\SiteController.php:131
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\controllers\SiteController.php(131): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 131, Array)
+#1 [internal function]: app\controllers\SiteController->actionSay()
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('say', Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-09 15:47:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '64782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsay'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1494337633.544
+    'REQUEST_TIME' => 1494337633
+]
+2017-05-09 15:49:27 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: D:\xampp\htdocs\nielyii\yii-from-zip\views\site\say.php in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('say', Array, Object(app\controllers\SiteController))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\controllers\SiteController.php(131): yii\base\Controller->render('say', Array)
+#3 [internal function]: app\controllers\SiteController->actionSay('Niel')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('say', Array)
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say', Array)
+#8 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-05-09 15:49:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '64818'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsay'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1494337766.818
+    'REQUEST_TIME' => 1494337766
+]
+2017-05-09 15:54:47 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 15:54:46 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_GET = [
+    'r' => 'site/say/nielito'
+]
+
+$_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '64930'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsay/nielito'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1494338086.895
+    'REQUEST_TIME' => 1494338086
+]
+2017-05-09 16:12:25 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('say/nielito', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:12:25 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\say\\nielito'
+    'PHP_SELF' => '/index.php/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494339145.308
+    'REQUEST_TIME' => 1494339145
+]
+2017-05-09 16:12:40 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:12:40 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494339160.096
+    'REQUEST_TIME' => 1494339160
+]
+2017-05-09 16:12:54 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:12:54 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65334'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494339174.158
+    'REQUEST_TIME' => 1494339174
+]
+2017-05-09 16:16:04 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:16:04 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65378'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494339364.502
+    'REQUEST_TIME' => 1494339364
+]
+2017-05-09 16:16:47 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:16:46 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494339406.842
+    'REQUEST_TIME' => 1494339406
+]
+2017-05-09 16:17:55 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:17:55 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65411'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494339475.554
+    'REQUEST_TIME' => 1494339475
+]
+2017-05-09 16:18:49 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/n". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/n', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:18:49 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65443'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/n'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/n'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\n'
+    'PHP_SELF' => '/index.php/site/say/n'
+    'REQUEST_TIME_FLOAT' => 1494339529.09
+    'REQUEST_TIME' => 1494339529
+]
+2017-05-09 16:19:01 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/n". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/n', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:19:01 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65451'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/n'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/n'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\n'
+    'PHP_SELF' => '/index.php/site/say/n'
+    'REQUEST_TIME_FLOAT' => 1494339541.078
+    'REQUEST_TIME' => 1494339541
+]
+2017-05-09 16:21:30 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/n". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/n', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:21:29 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65502'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/n'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/n'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\n'
+    'PHP_SELF' => '/index.php/site/say/n'
+    'REQUEST_TIME_FLOAT' => 1494339689.776
+    'REQUEST_TIME' => 1494339689
+]
+2017-05-09 16:22:08 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/niel". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/niel', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:22:08 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '65528'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339728.009
+    'REQUEST_TIME' => 1494339728
+]
+2017-05-09 16:22:27 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/niel". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/niel', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:22:27 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339747.024
+    'REQUEST_TIME' => 1494339747
+]
+2017-05-09 16:23:44 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Request.php:193
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2017-05-09 16:23:44 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49196'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339824.566
+    'REQUEST_TIME' => 1494339824
+]
+2017-05-09 16:23:48 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Request.php:193
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2017-05-09 16:23:48 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49196'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339828.593
+    'REQUEST_TIME' => 1494339828
+]
+2017-05-09 16:23:56 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/niel". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/niel', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:23:55 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49199'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339835.823
+    'REQUEST_TIME' => 1494339835
+]
+2017-05-09 16:24:09 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/niel". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/niel', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:24:09 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49207'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339849.616
+    'REQUEST_TIME' => 1494339849
+]
+2017-05-09 16:24:24 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/niel". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/niel', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:24:23 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49218'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339863.952
+    'REQUEST_TIME' => 1494339863
+]
+2017-05-09 16:24:31 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/niel". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/niel', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:24:30 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/niel'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/niel'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\niel'
+    'PHP_SELF' => '/index.php/site/say/niel'
+    'REQUEST_TIME_FLOAT' => 1494339870.919
+    'REQUEST_TIME' => 1494339870
+]
+2017-05-09 16:24:40 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/jo". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/jo', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:24:39 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say'
+    'PHP_SELF' => '/index.php/site/say'
+    'REQUEST_TIME_FLOAT' => 1494339879.77
+    'REQUEST_TIME' => 1494339879
+]
+2017-05-09 16:25:16 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/jo". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/jo', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:25:16 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49249'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/jo'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/jo'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\jo'
+    'PHP_SELF' => '/index.php/site/say/jo'
+    'REQUEST_TIME_FLOAT' => 1494339915.976
+    'REQUEST_TIME' => 1494339915
+]
+2017-05-09 16:33:11 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/1". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/1', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:33:11 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/1'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\1'
+    'PHP_SELF' => '/index.php/site/say/1'
+    'REQUEST_TIME_FLOAT' => 1494340391.465
+    'REQUEST_TIME' => 1494340391
+]
+2017-05-09 16:33:29 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:33:28 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494340408.841
+    'REQUEST_TIME' => 1494340408
+]
+2017-05-09 16:34:03 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/123". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/123', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:34:02 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49429'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/123'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/123'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\123'
+    'PHP_SELF' => '/index.php/site/say/123'
+    'REQUEST_TIME_FLOAT' => 1494340442.794
+    'REQUEST_TIME' => 1494340442
+]
+2017-05-09 16:37:04 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:37:03 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494340623.739
+    'REQUEST_TIME' => 1494340623
+]
+2017-05-09 16:37:25 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:37:25 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49711'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494340644.963
+    'REQUEST_TIME' => 1494340644
+]
+2017-05-09 16:37:42 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:37:42 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49719'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito'
+    'PHP_SELF' => '/index.php/site/say/nielito'
+    'REQUEST_TIME_FLOAT' => 1494340662.636
+    'REQUEST_TIME' => 1494340662
+]
+2017-05-09 16:37:51 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/$1/$2". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/$1/$2', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:37:51 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_GET = [
+    'message' => 'nielito'
+    'niel' => 'gono'
+]
+
+$_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49727'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito/gono'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito/gono'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito\\gono'
+    'PHP_SELF' => '/index.php/site/say/nielito/gono'
+    'REQUEST_TIME_FLOAT' => 1494340671.116
+    'REQUEST_TIME' => 1494340671
+]
+2017-05-09 16:38:03 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito/gono". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:38:03 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49734'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito/gono'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito/gono'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito\\gono'
+    'PHP_SELF' => '/index.php/site/say/nielito/gono'
+    'REQUEST_TIME_FLOAT' => 1494340682.998
+    'REQUEST_TIME' => 1494340682
+]
+2017-05-09 16:38:06 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say/nielito/". in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/say/nielit...', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-09 16:38:06 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '49734'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/say/nielito/'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/say/nielito/'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\say\\nielito\\'
+    'PHP_SELF' => '/index.php/site/say/nielito/'
+    'REQUEST_TIME_FLOAT' => 1494340686.38
+    'REQUEST_TIME' => 1494340686
+]
+2017-05-09 17:07:35 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected '/', expecting '{' in D:\xampp\htdocs\nielyii\yii-from-zip\models\EntryForm.php:3
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Entr...')
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\controllers\SiteController.php(140): spl_autoload_call('app\\models\\Entr...')
+#2 [internal function]: app\controllers\SiteController->actionEntry()
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('entry', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/entry', Array)
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2017-05-09 17:07:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '50273'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/entry'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\site\\entry'
+    'PHP_SELF' => '/index.php/site/entry'
+    'REQUEST_TIME_FLOAT' => 1494342455.425
+    'REQUEST_TIME' => 1494342455
+]
+2017-05-09 17:55:42 [127.0.0.1][-][-][error][Error] Error: Class 'yii\models\Country' not found in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:14
+Stack trace:
+#0 [internal function]: app\controllers\CountryController->actionIndex()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country', Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2017-05-09 17:55:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '52926'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country'
+    'PHP_SELF' => '/index.php/country'
+    'REQUEST_TIME_FLOAT' => 1494345341.775
+    'REQUEST_TIME' => 1494345341
+]
+2017-05-09 17:55:47 [127.0.0.1][-][-][error][Error] Error: Class 'yii\models\Country' not found in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:14
+Stack trace:
+#0 [internal function]: app\controllers\CountryController->actionIndex()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/index', Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2017-05-09 17:55:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '52927'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\index'
+    'PHP_SELF' => '/index.php/country/index'
+    'REQUEST_TIME_FLOAT' => 1494345346.826
+    'REQUEST_TIME' => 1494345346
+]
