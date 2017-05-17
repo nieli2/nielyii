@@ -2814,3 +2814,686 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1494345346.826
     'REQUEST_TIME' => 1494345346
 ]
+2017-05-12 14:57:10 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Response content must be a string or an object implementing __toString(). in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Response.php:1025
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Response->send()
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2017-05-12 14:57:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53215'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494593830.748
+    'REQUEST_TIME' => 1494593830
+]
+2017-05-12 14:58:04 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'all' (T_STRING), expecting variable (T_VARIABLE) or '$' in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:52
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('country')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('angular')
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/angular', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 14:58:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53303'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494593883.81
+    'REQUEST_TIME' => 1494593883
+]
+2017-05-12 14:58:14 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'find' (T_STRING), expecting variable (T_VARIABLE) or '$' in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:52
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('country')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('angular')
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/angular', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 14:58:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53321'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494593894.594
+    'REQUEST_TIME' => 1494593894
+]
+2017-05-12 14:58:42 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'get' (T_STRING), expecting variable (T_VARIABLE) or '$' in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:52
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('country')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('angular')
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/angular', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 14:58:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494593922.06
+    'REQUEST_TIME' => 1494593922
+]
+2017-05-12 14:59:10 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'get' (T_STRING), expecting variable (T_VARIABLE) or '$' in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:52
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('country')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('')
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 14:59:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\'
+    'PHP_SELF' => '/index.php/country/'
+    'REQUEST_TIME_FLOAT' => 1494593949.949
+    'REQUEST_TIME' => 1494593949
+]
+2017-05-12 14:59:17 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'get' (T_STRING), expecting variable (T_VARIABLE) or '$' in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:52
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('country')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('index')
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/index', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 14:59:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53433'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\index'
+    'PHP_SELF' => '/index.php/country/index'
+    'REQUEST_TIME_FLOAT' => 1494593957.375
+    'REQUEST_TIME' => 1494593957
+]
+2017-05-12 15:04:27 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'find' (T_STRING), expecting variable (T_VARIABLE) or '$' in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:52
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('country')
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('angular')
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/angular', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 15:04:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '53953'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494594267.37
+    'REQUEST_TIME' => 1494594267
+]
+2017-05-12 15:06:24 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Response content must not be an array. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Response.php:1020
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Response->send()
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2017-05-12 15:06:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '54157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494594384.298
+    'REQUEST_TIME' => 1494594384
+]
+2017-05-12 15:10:11 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Response content must not be an array. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Response.php:1020
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Response->send()
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2017-05-12 15:10:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '54537'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494594610.686
+    'REQUEST_TIME' => 1494594610
+]
+2017-05-12 15:10:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class app\models\Country could not be converted to string in D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php:55
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\controllers\CountryController.php(55): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'D:\\xampp\\htdocs...', 55, Array)
+#1 [internal function]: app\controllers\CountryController->actionAngular()
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('angular', Array)
+#5 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/angular', Array)
+#6 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-05-12 15:10:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '54600'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494594647.313
+    'REQUEST_TIME' => 1494594647
+]
+2017-05-12 15:13:04 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: country/angular in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('angular', Array)
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('country/angular', Array)
+#2 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\nielyii\yii-from-zip\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\nielyii\yii-from-zip\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-12 15:13:04 [127.0.0.1][-][c2gl43i19jsq1es8nlpklqq3vc][info][application] $_COOKIE = [
+    '_csrf' => '649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW\";}'
+    'PHPSESSID' => 'c2gl43i19jsq1es8nlpklqq3vc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'beyadaz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=649620d197352ec95fd630b9b4e1f34ce74d8210bdb574ea3d864edc5b710227a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cWI4vc4SPc9FNGuI_TFnUf7NBeoQ1qAW%22%3B%7D; PHPSESSID=c2gl43i19jsq1es8nlpklqq3vc'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at www.yii.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'www.yii.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web'
+    'SERVER_ADMIN' => 'webmaster@yii.dev'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/nielyii/yii-from-zip/web/index.php'
+    'REMOTE_PORT' => '54826'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/country/angular'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/country/angular'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\nielyii\\yii-from-zip\\web\\country\\angular'
+    'PHP_SELF' => '/index.php/country/angular'
+    'REQUEST_TIME_FLOAT' => 1494594784.239
+    'REQUEST_TIME' => 1494594784
+]
